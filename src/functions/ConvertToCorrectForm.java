@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 /* The author of this code is Makar Stetsenko */
 
-class ConvertToCorrectForm {
+public class ConvertToCorrectForm {
 		private boolean isLetter(char c) {
 			Pattern p = Pattern.compile("[a-z]");
 			Matcher m = p.matcher(Character.toString(c));
